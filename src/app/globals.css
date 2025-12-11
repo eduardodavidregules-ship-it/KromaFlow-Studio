@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --background: #0A1C41;
+  --foreground: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: #0A1C41;
+  /* Fallback */
+  background: radial-gradient(circle at top left, #132550 0%, #0A1C41 100%);
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
